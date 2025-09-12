@@ -1,4 +1,23 @@
-streamlit[snowflake]
+# torch with gpu from torch repository
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+# additional repo to install torch with cuda support directly from the torch repository
+# --extra-index-url https://download.pytorch.org/whl/cu118
+# --extra-index-url https://download.pytorch.org/whl/cu118/torch_stable.html
+
+# torch version with gpu/cuda supüport
+#torch==2.6.0+cu118
+#torchaudio==2.6.0+cu118
+#torchvision==0.21.0+cu118
+
+
+# standard installations from PiPy repository:
+python-dotenv
+streamlit
 pandas
-snowflake-snowpark-python
+numpy
+plotly
+altair
 matplotlib
+openai
+#pydocstyle
