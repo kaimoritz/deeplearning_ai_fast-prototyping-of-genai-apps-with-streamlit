@@ -60,6 +60,7 @@ with tab1:
     ax2.set_ylabel("Delivery Status")
     st.pyplot(fig2)
 
+
 # Tab 2: RAG App
 with tab2:
     st.title("RAG App")
